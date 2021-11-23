@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="tableborder">
+    <div class="f2" id="menu">
+        <div>
+            <span>
+<div class="relative" width="5%" style="padding-left: 10px;font-weight: 700">
+        <font color=blue face="Arial, Helvetica, sans-serif" size="-1">
+        您好：管理员
+    </font>
+</div>
+            </span>
+        </div>
+        <div class="flex">
+            <div class="relative" width="5%">
+                <span href="../zc_check/checkzc.jsp" target="main">资产查询
+                </span>
+                <div class="absolute">
+                    <div>资产申购</div>
+                    <div>资产登记</div>
+                </div>
+            </div>
+            <div class="relative" width="5%">
+                <span href="../lendInfos.do" target="main" target="main">
+                    资产增加
+                </span>
+                <div class="absolute">
+                    <div>资产申购</div>
+                    <div>资产登记</div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="relative" width="5%"><span href="../lendInfos.do" target="main" target="main">借还管理 </span>
+                <div class="absolute"></div>
+            </div>
+
+            <div class="relative" width="5%"><span href="../zc_inout/zcInOutCheck.jsp" target="main">借还查询 </span>
+                <div class="absolute"></div>
+            </div>
+
+            <div class="relative" width="5%"><span href="../assetPerAction.do" target="main">维修管理 </span>
+                <div class="absolute"></div>
+            </div>
+
+            <div class="relative" width="5%"><span href="../zc_wx/checkZcwxInfo.jsp" target="main">维修查询 </span>
+                <div class="absolute"></div>
+            </div>
+
+            <div class="relative" width="5%"><span href="../employeeAction.do" target="main">员工管理 </span>
+                <div class="absolute"></div>
+            </div>
+
+            <div class="relative" width="5%"><span href="../printStoreIn.do" target="main">打印报表 </span>
+                <div class="absolute"></div>
+            </div>
+            <div class="relative" width="5%"><span href="../userManaAction.do" target="main">用户管理 </span>
+                <div class="absolute"></div>
+            </div>
+            <div class="relative" width="5%"><span href="../user_info/updatepwd.jsp" target="main">修改密码 </span>
+                <div class="absolute"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var elementsByClassName = document.getElementsByClassName("relative");
+    for (let i = 0;i < elementsByClassName.length;i++) {
+        elementsByClassName[i].addEventListener("click",function () {
+            var cn = this.classList;
+            console.log("获取到的className为",cn)
+            this.className+=" relativea";
+            elementsByClassName[i].addEventListener("mouseleave",function () {
+                this.classList.remove("relativea");
+               console.log("鼠标离开")
+            });
+        });
+    }
+</script>
+<style>
+    .relativea {
+        position: relative;
+    }
+
+    .absolute:hover {
+        /*display: inline-block;*/
+        /*!*top: 35px;*!*/
+        /*width: 68px;*/
+        /*height: 200px;*/
+        /*BACKGROUND: #cbe4b0;*/
+        /*position: absolute;*/
+    }
+
+    .relativea:hover > .absolute {
+
+        display: inline-block;
+        top: 30px;
+        left: calc(5% - 3px);
+        width: 100%;
+        height: 200px;
+        BACKGROUND: #cbe4b0;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .absolute {
+        display: none;
+    }
+
+    .flex {
+        display: inline-block;
+        width: 85%;
+
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    div {
+
+    }
+
+    span {
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        PADDING-RIGHT: 8px;
+        PADDING-LEFT: 8px;
+        PADDING-BOTTOM: 0px;
+        MARGIN: 0px;
+        COLOR: #325b0a;
+        LINE-HEIGHT: 25px;
+        PADDING-TOP: 0px;
+        TEXT-DECORATION: none
+    }
+
+    span:hover {
+        BACKGROUND: #95b274;
+        COLOR: #fff;
+        LINE-HEIGHT: 25px;
+        BORDER-BOTTOM: #7c9a57 3px solid;
+        HEIGHT: 25px;
+        TEXT-DECORATION: none;
+        COLOR: #003;
+        LINE-HEIGHT: 20px;
+        BACKGROUND: #95b274;
+        COLOR: #fff;
+        LINE-HEIGHT: 25px;
+        BORDER-BOTTOM: #7c9a57 3px solid;
+        HEIGHT: 25px;
+        TEXT-DECORATION: none;
+    }
+
+    .tableborder {
+        border: 1px solid #0099FF;
+    }
+
+    #menu {
+        margin: 2px;
+        BORDER-RIGHT: #709d3e;
+        BORDER-TOP: #709d3e 1px solid;
+        BACKGROUND: #cbe4b0 no-repeat right 50%;
+        BORDER-LEFT: #709d3e;
+        COLOR: #bad098;
+        BORDER-BOTTOM: #709d3e;
+        height: 30px;
+    }
+
+    .f2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media all and (max-width: 700px) {
+        #menu {
+            height: 60px;
+        }
+    }
+</style>
+
+</html>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaReport-V3-Enterprise-Released">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/JavaReport-V3-Enterprise-Released.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
