@@ -41,7 +41,7 @@
 					<table width="100%" height="457" border="0" cellpadding="0"
 										cellspacing="0" background="images/login.jpg">
 					<tr>
-					<td height="57"><p>&nbsp;</p>
+					<td height="57"><p>&nbsp;徐州市丰硕绿色农业科技发展有限公司固定资产管理系统</p>
 					<p>&nbsp;</p></td></tr>
 					<tr>
 					<td height="72" valign="top">
