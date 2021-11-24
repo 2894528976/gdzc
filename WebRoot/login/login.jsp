@@ -31,7 +31,6 @@
     <td bgcolor="#F4FEff">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
-
                 <td valign="top">
 				<td height="57" style="text-align: center;"><p style="font-size: 18px;color: #669999;">&nbsp;徐州市丰硕绿色农业科技发展有限公司固定资产管理系统</p></td>
                     <table width="100%" height="525" border="0" align="center" cellpadding="0" cellspacing="0">
