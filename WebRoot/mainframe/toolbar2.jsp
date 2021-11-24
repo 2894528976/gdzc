@@ -96,6 +96,14 @@
                     </div>
                 </div>
             </c:if>
+
+            <div class="relative" width="5%">
+                <a href="user_info/updatepwd.jsp" target="main">
+                    修改密码
+                </a>
+                <div class="absolute">
+                </div>
+            </div>
     </div>
 </div>
 </div>
