@@ -1,7 +1,5 @@
 <%@ page contentType="text/html; charset=GBK" %>
-<%@ page import="java.awt.*,com.niuys.gdzc.model.*,java.util.*,java.text.*"%>
-<%@ page import="com.javareport.beans.*"%>
-<%@ page import="com.niuys.gdzc.util.report" %>
+<%@ page import="com.javareport.beans.Report,com.niuys.gdzc.util.report"%>
 <%@ page extends="com.javareport.http.WebReportEngine"%>
 <%!
 public Report createReport(HttpServletRequest request) throws Exception{

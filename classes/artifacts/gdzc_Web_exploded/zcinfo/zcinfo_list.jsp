@@ -14,10 +14,10 @@
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">
 
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
 
-    <SCRIPT language=JavaScript src="../js/pinbi.js"></SCRIPT>
+    <SCRIPT language=JavaScript src="js/pinbi.js"></SCRIPT>
 </head>
 
   <body>
@@ -41,7 +41,7 @@
           <td width="10%"><label>
           <img src="images/jiaodian_biao.gif" width="21" height="17">
 
-          <input name="add" type="button" class="button" id="add" value="添加资产"
+          <input name="add" type="button" class="button" id="add" value="</span>"
             onmouseover="this.style.color='red'" onMouseOut="this.style.color='#1e7977'"
             onclick="window.location='zcinfo/zcinfo_add.jsp'">
 <%--            http://localhost:8080/gdzc_Web_exploded/--%>

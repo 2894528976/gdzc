@@ -6,10 +6,7 @@
 <body onLoad="intro()">
 <script language="javascript">
 function intro(){
-    // request.getSession().getAttribute("username")!=null
     <%--var myName="<%=session.getAttribute("MYNAME")%>";--%>
-    alert("aaa")
-    console.log("来到页面")
 	window.location.href="login/login.jsp";
 }
 </script>

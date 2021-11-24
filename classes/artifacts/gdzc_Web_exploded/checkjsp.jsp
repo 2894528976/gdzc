@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import="java.util.*"%>
+<%@ page import="java.util.StringTokenizer"%>
 <%//防止sql注入%>
 <%
 String Fy_Url=null;
@@ -22,7 +22,7 @@ if(Fy_Url!=null){
 				out.println("<script>window.location='/index.jsp';</script>");
 				return;
             }
-        }      
+        }
     }
 }
 %>

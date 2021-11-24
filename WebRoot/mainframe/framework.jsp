@@ -9,11 +9,17 @@
         var elementById = document.getElementById("tool");
        var children1 = elementById.contentWindow.document.getElementsByClassName("relative");
         for (let i = 0; i < children1.length; i++) {
+            var lastChild = children1[i].children;
+            console.log("子元素")
+            console.log(lastChild[1])
+            // lastChild[1].addEventListener("mouseleave", function (a) {
+            children1[i].addEventListener("mouseleave", function (a) {
+                var www = document.getElementById("www");
+                www.rows=("65,80,*");
+        });
             children1[i].addEventListener("click", function () {
-                console.log(this)
                 var chj = this.children;
 			var aa = 	chj[1].children;
-			console.log(aa)
                 var www = document.getElementById("www");
                 if (aa.length > 0) {
 					if (aa.length == 1) {
