@@ -15,7 +15,7 @@
   <TR>
     <TD class=unnamed4 vAlign="center" align="middle" bgColor="#82aeb7" height=20>
     <SPAN class=textall>
-    <FONT color=#ffffff>2021-11  版权所有：徐州生物工程职业技术学院 地址：江苏省徐州市西三环路297号 邮编：221006 电话：0516-83628088
+    <FONT color=#ffffff>2021-11  版权所有：硕绿色农业科技发展有限公司 地址：徐州市贾汪区紫庄镇石庄村 邮编：221000 电话：0516-87300088
       </FONT>
       </SPAN> 
       </TD>
